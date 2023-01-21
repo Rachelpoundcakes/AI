@@ -82,7 +82,7 @@ pd.plotting.scatter_matrix(iris_dataframe, figsize=(15,15),
                            cmap='viridis',
                            alpha=0.8)
 
-# 첫 번째 머신 러닝 모델: k-최근접 알고리즘
+# 지도학습--> Classification: k-최근접 알고리즘(KNN)
 from sklearn.neighbors import KNeighborsClassifier
 knn = KNeighborsClassifier(n_neighbors=1)
 
