@@ -195,7 +195,7 @@ pd.plotting.scatter_matrix(iris_dataframe, figsize=(8,8),
                             alpha=0.8)
 plt.show()
 
-##### 머신러닝 모델 <k-최근접 알고리즘(K-Nearest Neighbor, KNN)>을 사용하여 학습시키기(train) ####
+##### 지도학습--> Classification: k-최근접 알고리즘(K-Nearest Neighbor, KNN을 사용하여 학습시키기(train) ####
 from sklearn.neighbors import KNeighborsClassifier
 knn = KNeighborsClassifier(n_neighbors=1)
 
