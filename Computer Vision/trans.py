@@ -82,4 +82,4 @@ for i in range(nframe_test):
     plt.imshow(image_, cmap='Blues')
     plt.title('image')
 
-    plt.show() 
+    plt.show()
